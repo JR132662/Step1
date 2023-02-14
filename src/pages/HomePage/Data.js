@@ -4,13 +4,13 @@ export const homeObjOne = {
     lightTopLine: true,
     lightText: true,
     lightTextDesc: true,
-    topLine: 'Marketing Agency',
-    headline: 'Lead Generation Specialist for Online Businesses',
+    topLine: 'Branding Agency',
+    headline: 'STEP1',
     description:
-      'We help business owners increase their revenue. Our team of unique specialist can help you achieve your business goals.',
+      'We believe in creating brands that are built to last, and we believe the best way to guarantee this level of success is a deeply well thought out and well executed launch',
     buttonLabel: 'Get Started',
     imgStart: '',
-    img: require('../../images/svg-1.svg').default,
+    img: require('../../images/STEP1_V2-07.png').default,
     alt: 'Credit Card',
     start: ''
   };

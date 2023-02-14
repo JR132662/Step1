@@ -38,7 +38,7 @@ const Navbar = () => {
                     <NavbarContainer>
                         <NavLogo to="/" onClick={closeMobileMenu}>
                             <NavIcon />
-                        ULTRA
+                        Step1
                         </NavLogo>
                         <MobileIcon onClick={handleClick} >
                             {click ? <FaTimes /> : <FaBars />}
