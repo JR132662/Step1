@@ -21,13 +21,13 @@ export const homeObjOne = {
     lightTopLine: true,
     lightText: true,
     lightTextDesc: true,
-    topLine: 'Instant Setup',
+    topLine: 'Branding is like Chess',
     headline: 'Make the right move!',
     description:
       "Our role is to bring clarity, creativity and knowledge to companies and products that are about to change the world.",
     buttonLabel: 'Learn More',
     imgStart: '',
-    img: require('../../images/svg.png').default,
+    img: require('../../images/svg-2.svg').default,
     alt: 'Vault',
     start: ''
   };
@@ -55,9 +55,10 @@ export const homeObjOne = {
     lightTopLine: false,
     lightText: false,
     lightTextDesc: false,
+    inverse: true,
     topLine: 'Anayansy Hernandez',
     headline:
-      'Step1 helped me increase my revenue by over 3X in less than 3 months!',
+      'Successful brands are remembered. The way people choose brands comes down to a formula. ',
     description:
       "Anayansy is a Marketing and Public Relations expert with over 8 years of experience. She began Yansy Marketing while she was a senior at the University of Florida studying Public Relations. Upon graduating in 2018, she expanded her skills to instructional design and created courses for USAID Gov. This experience led her to understand the psychology behind how people learned and digested information. She then decided to apply her new insights to the marketing world, specifically focusing on the tech industry. Early in 2022, Anayansy began marketing and educating the public about security tokens.",
     buttonLabel: 'View Case Study',

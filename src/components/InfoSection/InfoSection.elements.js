@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const InfoSec = styled.div`
 color: #fff;
-padding: 20px 0;
+padding: 90px 0;
 background : ${({ lightBg }) => (lightBg ? "#fff" : "#101522")};
 @media screen and (max-width:900px){
 }
@@ -63,6 +63,15 @@ export const Img = styled.img`
   vertical-align: middle;
   display: inline-block;
   max-height: 500px;
+  animation: rotation 2s linear;
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
 `
 
 export const Heading = styled.h1`
