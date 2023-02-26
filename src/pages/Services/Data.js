@@ -14,6 +14,16 @@ export const homeObjOne = {
     alt: 'Credit Card',
     start: ''
   };
+  export const homeObjSix = {
+    primary: true,
+    lightBg: false,
+    lightTopLine: true,
+    lightText: true,
+    lightTextDesc: true,
+    img: require('../../images/banner.js').default,
+    alt: 'Credit Card',
+    start: ''
+  };
   
   export const homeObjTwo = {
     primary: true,
