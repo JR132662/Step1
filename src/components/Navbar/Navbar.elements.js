@@ -7,7 +7,7 @@ export const Nav = styled.nav`
 display: flex;
 justify-content: center;
 align-items: center;
-background: #382936;
+background-color: #ffe8bb;
 height: 12vh;
 font-size: 1.2rem;
 position: sticky;
@@ -34,6 +34,7 @@ align-items: center;
 
 export const NavIcon = styled(FaMagento)`
 margin-right: 0.5rem
+color: #ffe8bb;
 `
 
 export const MobileIcon = styled.div`

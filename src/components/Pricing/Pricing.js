@@ -27,12 +27,8 @@ function Pricing() {
           <PricingContainer>
             <PricingCard to='/sign-up'>
               <PricingCardInfo>
-                <PricingCardIcon>
-                  <GiRock />
-                </PricingCardIcon>
-                <PricingCardPlan>Starter Pack</PricingCardPlan>
-                <PricingCardCost>$99.99</PricingCardCost>
-                <PricingCardLength>per month</PricingCardLength>
+                <PricingCardPlan>Baby Steps</PricingCardPlan>
+                <PricingCardLength>tier 1</PricingCardLength>
                 <PricingCardFeatures>
                   <PricingCardFeature>100 New Users</PricingCardFeature>
                   <PricingCardFeature>$10,000 Budget</PricingCardFeature>
@@ -43,12 +39,8 @@ function Pricing() {
             </PricingCard>
             <PricingCard to='/sign-up'>
               <PricingCardInfo>
-                <PricingCardIcon>
-                  <GiCrystalBars />
-                </PricingCardIcon>
-                <PricingCardPlan>Gold Rush</PricingCardPlan>
-                <PricingCardCost>$299.99</PricingCardCost>
-                <PricingCardLength>per month</PricingCardLength>
+                <PricingCardPlan>Step One</PricingCardPlan>
+                <PricingCardLength>tier 2</PricingCardLength>
                 <PricingCardFeatures>
                   <PricingCardFeature>1000 New Users</PricingCardFeature>
                   <PricingCardFeature>$50,000 Budget</PricingCardFeature>
@@ -59,12 +51,8 @@ function Pricing() {
             </PricingCard>
             <PricingCard to='/sign-up'>
               <PricingCardInfo>
-                <PricingCardIcon>
-                  <GiCutDiamond />
-                </PricingCardIcon>
-                <PricingCardPlan>Diamond Kings</PricingCardPlan>
-                <PricingCardCost>$999.99</PricingCardCost>
-                <PricingCardLength>per month</PricingCardLength>
+                <PricingCardPlan>The Leap</PricingCardPlan>
+                <PricingCardLength>tier 3</PricingCardLength>
                 <PricingCardFeatures>
                   <PricingCardFeature>Unlimited Users</PricingCardFeature>
                   <PricingCardFeature>Unlimited Budget</PricingCardFeature>

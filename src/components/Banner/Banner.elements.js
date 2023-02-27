@@ -2,12 +2,20 @@ import styled from "styled-components"
 
 export const InfoSec = styled.div`
 color: #fff;
-padding: 90px 0;
-background : ${({ lightBg }) => (lightBg ? "#fff" : "#101522")};
+height: 500px;
+padding: 90 0;
+background : ${({ lightBg }) => (lightBg ? "#fff" : "black")};
+
 @media screen and (max-width:900px){
 }
 `
-
+export const BannerImg = styled.img`
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1));
+	position: absolute;
+`;
 export const InfoRow = styled.div`
 display: flex;
 flex-wrap: wrap;
@@ -20,7 +28,6 @@ gap: 20px;
 
 export const InfoColumn = styled.div`
   flex: 1;
-  max-width: 50%;
   flex-basis: 50%;
   margin-bottom: 15px;
   padding-right: 15px;
@@ -34,7 +41,6 @@ export const InfoColumn = styled.div`
 `
 
 export const TextWrapper = styled.div`
-  max-width: 540px;
   padding-top: 0;
   padding-bottom: 60px;
   @media screen and (max-width: 768px) {
@@ -44,8 +50,7 @@ export const TextWrapper = styled.div`
 
 export const ImgWrapper = styled.div`
 display: flex;
-max-width: 555px;
-justify-content: ${({ start }) => (start ? "flex-start" : "flex-end")};
+justify-content: ${({ start }) => (start ? "center" : "center")};
 `
 export const TopLine = styled.div`
 color: ${({ lightTopLine }) => (lightTopLine ? "#a9b3c1" : "#4B59F7")};
@@ -56,12 +61,14 @@ letter-spacing: 1.4px;
 margin-bottom: 16px;
 `
 
-export const Img2 = styled.img`
-object-fit: cover;
-width: 100%;
-height: 100%;
-background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1));
-z-index: -1;
+export const Img = styled.img`
+  padding-right: 0;
+  border: 0;
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+  max-height: 500px;
+  animation: rotation 2s linear;
 `
 
 export const Heading = styled.h1`

@@ -84,3 +84,20 @@ export const homeObjOne = {
     alt: 'Vault',
     start: 'true'
   };
+  export const homeObjsix = {
+    primary: true,
+    lightBg: false,
+    lightTopLine: true,
+    lightText: true,
+    lightTextDesc: true,
+    topLine: 'Branding Agency',
+    headline: 'STEP1',
+    description:
+      'We believe in creating brands that are built to last, and we believe the best way to guarantee this level of success is a deeply well thought out and well executed launch',
+    buttonLabel: 'Get Started',
+    imgStart: '',
+    img: require('../../images/banner.jpeg').default,
+    alt: 'Credit Card',
+    start: ''
+  };
+  
