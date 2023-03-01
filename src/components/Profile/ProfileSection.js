@@ -2,6 +2,7 @@ import React from 'react'
 import { InfoSec, InfoRow, InfoColumn, TextWrapper, Heading, Subtitle, TopLine, ImgWrapper, Img, } from "./Profile.elements.js"
 import { Container, Button } from "../../globalStyles"
 import { Link } from "react-router-dom"
+import { PricingHeading } from '../Pricing/Pricing.elements.js'
 
 const ProfileSection = ({ primary, lightBg, imgStart, lightTopLine, lightTextDesc, buttonLabel, description, headline, lightText, topLine, img, alt, start }) => {
     return (
