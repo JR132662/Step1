@@ -6,7 +6,7 @@ export const PricingSection = styled.div`
     flex-direction: column;
     justify-content: center;
     padding: 100px 0 160px;
-    background-color: #ffe8bb;
+    background-image: linear-gradient(89.7deg, rgb(0, 32, 95) 2.8%, rgb(132, 53, 142) 97.8%);;
 `
 export const VideoSection = styled.div`
 display: inline-block;
@@ -52,6 +52,7 @@ export const PricingContainer = styled.div`
     justify-content: center;
     align-items: center;
     width: 100%;
+    
 
     @media screen and (max-width: 960px) {
         display: flex;
