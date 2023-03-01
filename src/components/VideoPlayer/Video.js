@@ -7,7 +7,6 @@ const VideoPlayer = ({ primary, lightBg, imgStart, lightTopLine, lightTextDesc, 
     return (
         <>
             <InfoSec lightBg={lightBg}>
-            <BannerImg src={img} start={start}/>
                 <Container>
                 <InfoRow>
                 <iframe width="1024" height="500" src="https://www.youtube.com/embed/5b68QthwAMQ" title="How to find your target audience- Step 1 Strategy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

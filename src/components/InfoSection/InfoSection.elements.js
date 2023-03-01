@@ -8,6 +8,7 @@ background : ${({ lightBg }) => (lightBg ? "#fff" : "#101522")};
 }
 `
 
+
 export const InfoRow = styled.div`
 display: flex;
 flex-wrap: wrap;

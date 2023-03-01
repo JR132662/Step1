@@ -2,31 +2,28 @@ import styled from "styled-components"
 
 export const InfoSec = styled.div`
 color: #fff;
-height: 500px;
-padding: 90 0;
-background : ${({ lightBg }) => (lightBg ? "#fff" : "black")};
-
+padding: 90px 0;
+background-image: linear-gradient(89.7deg,rgb(0,32,95) 2.8%,rgb(132,53,142) 97.8%);
+display:none;
 @media screen and (max-width:900px){
+  display: inline-block;
 }
 `
-export const BannerImg = styled.img`
-	object-fit: cover;
-	width: 100%;
-	height: 100%;
-	background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1));
-	position: absolute;
-`;
+
+
 export const InfoRow = styled.div`
+display: flex;
+flex-wrap: wrap;
 align-items: center;
-flex-direction: ${({ imgStart }) => (imgStart ? 'center' : 'center')};
+flex-direction: ${({ imgStart }) => (imgStart ? 'row-reverse' : 'row')};
 @media screen and (max-width: 768px) {
 gap: 20px;
-width: 100%;
-height: 100%;
 }
 `
 
 export const InfoColumn = styled.div`
+  flex: 1;
+  max-width: 50%;
   flex-basis: 50%;
   margin-bottom: 15px;
   padding-right: 15px;
@@ -40,6 +37,7 @@ export const InfoColumn = styled.div`
 `
 
 export const TextWrapper = styled.div`
+  max-width: 540px;
   padding-top: 0;
   padding-bottom: 60px;
   @media screen and (max-width: 768px) {
@@ -49,7 +47,8 @@ export const TextWrapper = styled.div`
 
 export const ImgWrapper = styled.div`
 display: flex;
-justify-content: ${({ start }) => (start ? "center" : "center")};
+max-width: 555px;
+justify-content: ${({ start }) => (start ? "flex-start" : "flex-end")};
 `
 export const TopLine = styled.div`
 color: ${({ lightTopLine }) => (lightTopLine ? "#a9b3c1" : "#4B59F7")};
@@ -68,11 +67,18 @@ export const Img = styled.img`
   display: inline-block;
   max-height: 500px;
   animation: rotation 2s linear;
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
 `
 
 export const Heading = styled.h1`
-  margin-bottom: 24px;
-  font-size: 48px;
+  font-size: 20px;
   line-height: 1.1;
   font-weight: 600;
   color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#1c2237')};
@@ -81,7 +87,6 @@ export const Heading = styled.h1`
 export const Subtitle = styled.p`
 max-width: 440px;
 margin-bottom: 35px;
-font-size: 18px;
-line-height: 24px;
-color: ${({ lightTextDesc }) => (lightTextDesc ? "#f7f8fa" : "#1c2237")}
+font-size: 20px;
+color: ${({ lightTextDesc }) => (lightTextDesc ? "#f7f8fa" : "white")}
 `

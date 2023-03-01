@@ -23,7 +23,7 @@ padding: 0 50px;
 
 export const Button = styled.button`
 border-radius: 4px;
-background: ${({primary}) => (primary ? "#ffe8bb" : "#382936")};
+background: ${({primary}) => (primary ? "#ffe8bb" : "#ffe8bb")};
 padding: ${({big}) => (big ? "12px 64px" : "10px 30px")};
 color: black;
 font-size: ${({fontBig}) => (fontBig ? "20px" : "16px")};

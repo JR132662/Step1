@@ -7,6 +7,7 @@ padding: 90 0;
 background : ${({ lightBg }) => (lightBg ? "#fff" : "black")};
 
 @media screen and (max-width:900px){
+  display:none;
 }
 `
 export const BannerImg = styled.img`
@@ -15,6 +16,9 @@ export const BannerImg = styled.img`
 	height: 100%;
 	background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1));
 	position: absolute;
+  @media screen and (max-width:900px){
+    display:none;
+  }
 `;
 export const InfoRow = styled.div`
 display: flex;

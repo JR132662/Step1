@@ -1,4 +1,5 @@
 import React from 'react';
+import "./pricing.css"
 import { Button } from '../../globalStyles';
 import { GiCrystalBars } from 'react-icons/gi';
 import { GiCutDiamond, GiRock } from 'react-icons/gi';
@@ -15,7 +16,10 @@ import {
   PricingCardCost,
   PricingCardLength,
   PricingCardFeatures,
-  PricingCardFeature
+  PricingCardFeature,
+  VideoSection,
+  PricingHeading2,
+  VideoSection2
 } from './Pricing.elements';
 
 function Pricing() {
@@ -23,7 +27,8 @@ function Pricing() {
     <IconContext.Provider value={{ color: '#a9b3c1', size: 64 }}>
       <PricingSection>
         <PricingWrapper>
-        <iframe width="1024" height="500" src="https://www.youtube.com/embed/5b68QthwAMQ" title="How to find your target audience- Step 1 Strategy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <PricingHeading2>Who we are</PricingHeading2>
+          <VideoSection><iframe width="1000" height="498" src="https://www.youtube.com/embed/5b68QthwAMQ" title="How to find your target audience- Step 1 Strategy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></VideoSection>
           <PricingHeading>Our Services</PricingHeading>
           <PricingContainer>
             <PricingCard to='/sign-up'>

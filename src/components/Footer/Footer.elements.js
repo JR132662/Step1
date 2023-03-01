@@ -8,7 +8,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-padding: 4rem 0 2rem 0;
+padding: 200px 0;
 background-color: #101522;
 `
 export const FooterSubscription = styled.section`
