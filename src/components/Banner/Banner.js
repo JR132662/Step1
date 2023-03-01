@@ -17,6 +17,7 @@ const Banner = ({ primary, lightBg, imgStart, lightTopLine, lightTextDesc, butto
                         </InfoColumn>
                     </InfoRow>
                 </Container>
+                <iframe width="885" height="498" src="https://www.youtube.com/embed/5b68QthwAMQ" title="How to find your target audience- Step 1 Strategy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </InfoSec>
         </>
     )
