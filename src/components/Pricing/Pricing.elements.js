@@ -65,12 +65,12 @@ export const PricingContainer = styled.div`
 `
 
 export const PricingCard = styled(Link)`
-    background: lightgrey;
+    background-image: linear-gradient(90deg, rgba(255,255,255,1) 22%, rgba(255,232,187,1) 52%);
     box-shadow: 0 10px 20px rgba(56, 125, 255, 0.2);
-    width: 300px;
+    width: 320px;
     height: 500px;
     text-decoration: none;
-    border-radius: 4px;
+    border-radius: 10px;
 
     &:nth-child(2) {
         margin: 24px;

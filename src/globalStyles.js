@@ -29,9 +29,9 @@ padding: 0 50px;
 
 export const Button = styled.button`
 border-radius: 4px;
-background: ${({primary}) => (primary ? "#ffe8bb" : "#ffe8bb")};
-padding: ${({big}) => (big ? "12px 64px" : "8px 80px")};
-color: black;
+background: ${({primary}) => (primary ? "black" : "#ffe8bb")};
+padding: ${({big}) => (big ? "8px 64px" : "1px 70px")};
+color: white;
 font-size: ${({fontBig}) => (fontBig ? "20px" : "16px")};
 border-radius: 4px;
 border: 1px solid black;
