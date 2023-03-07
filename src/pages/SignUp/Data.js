@@ -56,10 +56,10 @@ export const homeObjOne = {
     lightTopLine: true,
     lightText: true,
     lightTextDesc: true,
-    topLine: 'Secure Database',
-    headline: 'All your data is stored on our secure server',
+    topLine: 'Expert Branding Services',
+    headline: 'Launch Now. Launch Right!',
     description:
-      'You will never have to worry about your information getting leaked. Our team of security experts will ensure your records are kept safe.',
+      'Our role is to bring clarity, creativity and knowledge to companies and products that are about to change the world.',
     buttonLabel: 'Sign Up Now',
     imgStart: 'start',
     img: require('../../images/svg-3.svg').default,

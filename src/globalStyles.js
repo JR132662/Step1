@@ -2,11 +2,16 @@ import styled, {createGlobalStyle} from "styled-components"
 
 const GlobalStyle = createGlobalStyle`
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Fira+Sans:ital,wght@0,500;1,400&family=PT+Serif:ital@1&family=Saira+Semi+Condensed:wght@400;600&display=swap');
 *{
 box-sizing: border-box;
 margin: 0;
 padding: 0;
-font-family: "Source Sans Pro", sans-serif;
+font-family: 'Anton', sans-serif;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Fira Sans', sans-serif;
+font-family: 'PT Serif', serif;
+font-family: 'Saira Semi Condensed', sans-serif;
 }
 `
 export const Container = styled.div`
@@ -25,7 +30,7 @@ padding: 0 50px;
 export const Button = styled.button`
 border-radius: 4px;
 background: ${({primary}) => (primary ? "#ffe8bb" : "#ffe8bb")};
-padding: ${({big}) => (big ? "12px 64px" : "10px 30px")};
+padding: ${({big}) => (big ? "12px 64px" : "8px 80px")};
 color: black;
 font-size: ${({fontBig}) => (fontBig ? "20px" : "16px")};
 border-radius: 4px;
@@ -35,7 +40,7 @@ cursor: pointer;
 &:hover{
     transition: all 0.3s ease-out;
     background: #fff;
-    background: ${({primary}) => (primary ? "#382936" : "#4B59F7")};
+    background: ${({primary}) => (primary ? "purple" : "purple")};
 }
 
 @media screen and (max-width: 960px) {

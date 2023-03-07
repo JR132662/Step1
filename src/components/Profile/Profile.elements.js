@@ -51,8 +51,8 @@ max-width: 555px;
 justify-content: ${({ start }) => (start ? "flex-start" : "flex-end")};
 `
 export const TopLine = styled.div`
-color: ${({ lightTopLine }) => (lightTopLine ? "#a9b3c1" : "#4B59F7")};
-font-size: 18px;
+color: ${({ lightTopLine }) => (lightTopLine ? "#ffe8bb" : "#ffe8bb")};
+font-size: 28px;
 line-height: 16px;
 font-weight: 700;
 letter-spacing: 1.4px;

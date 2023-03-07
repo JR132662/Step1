@@ -34,37 +34,37 @@ function Pricing() {
             <PricingCard to='/sign-up'>
               <PricingCardInfo>
                 <PricingCardPlan>Baby Steps</PricingCardPlan>
-                <PricingCardLength>tier 1</PricingCardLength>
+                <PricingCardLength>Tier 1</PricingCardLength>
                 <PricingCardFeatures>
-                  <PricingCardFeature>100 New Users</PricingCardFeature>
-                  <PricingCardFeature>$10,000 Budget</PricingCardFeature>
-                  <PricingCardFeature>Retargeting analytics</PricingCardFeature>
+                  <PricingCardFeature>Phase 1 Brand Sprint</PricingCardFeature>
+                  <PricingCardFeature>Your brand discovery process simplified</PricingCardFeature>
+                  <PricingCardFeature>Targeted Brand Consulting V1 </PricingCardFeature>
                 </PricingCardFeatures>
-                <Button primary>Choose Plan</Button>
+                <Button primary>Learn More</Button>
               </PricingCardInfo>
             </PricingCard>
             <PricingCard to='/sign-up'>
               <PricingCardInfo>
                 <PricingCardPlan>Step One</PricingCardPlan>
-                <PricingCardLength>tier 2</PricingCardLength>
+                <PricingCardLength>Tier 2</PricingCardLength>
                 <PricingCardFeatures>
-                  <PricingCardFeature>1000 New Users</PricingCardFeature>
-                  <PricingCardFeature>$50,000 Budget</PricingCardFeature>
-                  <PricingCardFeature>Lead Gen Analytics</PricingCardFeature>
+                  <PricingCardFeature>Phase 2 Brand Sprint</PricingCardFeature>
+                  <PricingCardFeature>Your brand discovery process simplified</PricingCardFeature>
+                  <PricingCardFeature>Targeted Brand Consulting V2 </PricingCardFeature>
                 </PricingCardFeatures>
-                <Button primary>Choose Plan</Button>
+                <Button primary>Learn More</Button>
               </PricingCardInfo>
             </PricingCard>
             <PricingCard to='/sign-up'>
               <PricingCardInfo>
                 <PricingCardPlan>The Leap</PricingCardPlan>
-                <PricingCardLength>tier 3</PricingCardLength>
+                <PricingCardLength>Tier 3</PricingCardLength>
                 <PricingCardFeatures>
-                  <PricingCardFeature>Unlimited Users</PricingCardFeature>
-                  <PricingCardFeature>Unlimited Budget</PricingCardFeature>
-                  <PricingCardFeature>24/7 Support</PricingCardFeature>
+                  <PricingCardFeature>Phase 3 Brand Sprint</PricingCardFeature>
+                  <PricingCardFeature>Product testing and launch de-risking</PricingCardFeature>
+                  <PricingCardFeature>PR Marketing /Social Strategy</PricingCardFeature>
                 </PricingCardFeatures>
-                <Button primary>Choose Plan</Button>
+                <Button primary>Learn More</Button>
               </PricingCardInfo>
             </PricingCard>
           </PricingContainer>

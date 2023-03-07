@@ -38,8 +38,7 @@ const Navbar = () => {
                 <Nav>
                     <NavbarContainer>
                         <NavLogo to="/" onClick={closeMobileMenu}>
-                            <NavIcon />
-                        STEP1 - MORE THAN A BRAND!
+                        STEP-1
                         </NavLogo>
                         <MobileIcon onClick={handleClick} >
                             {click ? <FaTimes /> : <FaBars />}

@@ -5,9 +5,9 @@ export const homeObjOne = {
     lightText: true,
     lightTextDesc: true,
     topLine: 'Branding Agency',
-    headline: 'STEP1',
+    headline: 'STEP-1',
     description:
-      'We believe in creating brands that are built to last, and we believe the best way to guarantee this level of success is a deeply well thought out and well executed launch',
+      'Your brand is the first aspect potential customers will recognize about your company. Always make a great first impression ',
     buttonLabel: 'Get Started',
     imgStart: '',
     img: require('../../images/STEP1_V2-07.png').default,
@@ -43,7 +43,7 @@ export const homeObjOne = {
       'Step1 helped me increase my revenue by over 3X in less than 3 months!',
     description:
       "Anastasia is a branding expert, with varied experience in the technology and innovation space, focusing her skill on communicating innovative and high complexity concepts in a powerful way that inspires loyalty and trust with the target audiences. Ana is a versatile marketer and brand impact engineer who focuses on implementing all the abstract aspects of storytelling and branding and transforming them into actionable steps of launch strategy and campaign management. She has worked with over two dozen companies and mentored many more in the context of Hackathons, Startup Weekends, and the national CEO organization. ",
-    buttonLabel: 'View Case Study',
+    buttonLabel: 'Lets Launch',
     imgStart: 'start',
     img: require('../../images/Anaprimo.JPEG').default,
     alt: 'Vault',
@@ -61,7 +61,7 @@ export const homeObjOne = {
       'Successful brands are remembered. The way people choose brands comes down to a formula. ',
     description:
       "Anayansy is a Marketing and Public Relations expert with over 8 years of experience. She began Yansy Marketing while she was a senior at the University of Florida studying Public Relations. Upon graduating in 2018, she expanded her skills to instructional design and created courses for USAID Gov. This experience led her to understand the psychology behind how people learned and digested information. She then decided to apply her new insights to the marketing world, specifically focusing on the tech industry. Early in 2022, Anayansy began marketing and educating the public about security tokens.",
-    buttonLabel: 'View Case Study',
+    buttonLabel: 'Lets Launch',
     imgStart: 'start',
     img: require('../../images/Anyansy.jpg').default,
     alt: 'Vault',
