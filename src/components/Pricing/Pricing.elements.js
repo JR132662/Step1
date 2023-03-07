@@ -30,7 +30,8 @@ export const PricingWrapper = styled.div`
 `
 
 export const PricingHeading = styled.h1`
-    color: black;
+    color: #ffe8bb;
+    text-align: center;
     font-size: 70px;
     margin-bottom: 24px;
     margin-top: 24px;
@@ -39,7 +40,7 @@ export const PricingHeading = styled.h1`
     }
 `
 export const PricingHeading2 = styled.h1`
-    color: black;
+    color: #ffe8bb;
     font-size: 70px;
     margin-bottom: 24px;
     @media screen and (max-width: 960px) {
@@ -64,7 +65,7 @@ export const PricingContainer = styled.div`
 `
 
 export const PricingCard = styled(Link)`
-    background-image: linear-gradient(89.7deg, rgb(0, 32, 95) 2.8%, rgb(132, 53, 142) 97.8%);;
+    background: white;
     box-shadow: 0 10px 20px rgba(56, 125, 255, 0.2);
     width: 300px;
     height: 500px;
@@ -124,9 +125,10 @@ export const PricingCardFeatures = styled.ul`
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: white;;
+    color: black;;
 `
 
 export const PricingCardFeature = styled.li`
     margin-bottom: 10px;
+    color: black;;
 `

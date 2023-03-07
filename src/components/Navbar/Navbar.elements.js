@@ -2,12 +2,13 @@ import styled from "styled-components"
 import { Container } from "../../globalStyles"
 import { FaMagento } from "react-icons/fa"
 import { Link } from "react-router-dom"
+import { GrSteps } from "react-icons/gr"
 
 export const Nav = styled.nav`
 display: flex;
 justify-content: center;
 align-items: center;
-background-color: #ffe8bb;
+background-image: linear-gradient(89.7deg, rgb(0, 32, 95) 2.8%, rgb(132, 53, 142) 97.8%);;
 height: 12vh;
 font-size: 1.2rem;
 position: sticky;
@@ -19,7 +20,7 @@ export const NavbarContainer = styled(Container)`
 display: flex;
 justify-content: space-between;
 height: 80px;
-background-image: linear-gradient(89.7deg, rgb(0, 32, 95) 2.8%, rgb(132, 53, 142) 97.8%);;
+background-image: none
 ${Container}
 `
 export const NavLogo = styled(Link)`
@@ -32,9 +33,10 @@ display: flex;
 align-items: center;
 `
 
-export const NavIcon = styled(FaMagento)`
-margin-right: 0.5rem
-color: #ffe8bb;
+export const NavIcon = styled.img`
+margin-right: 0.5rem;
+width: 40px;
+height: 40px;
 `
 
 export const MobileIcon = styled.div`

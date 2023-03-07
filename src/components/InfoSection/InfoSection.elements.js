@@ -3,7 +3,8 @@ import styled from "styled-components"
 export const InfoSec = styled.div`
 color: #fff;
 padding: 90px 0;
-background : ${({ lightBg }) => (lightBg ? "#fff" : "#101522")};
+background-image: linear-gradient(89.7deg,rgb(0,32,95) 2.8%,rgb(132,53,142) 97.8%);
+}
 @media screen and (max-width:900px){
 }
 `

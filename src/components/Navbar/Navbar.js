@@ -3,6 +3,7 @@ import { Nav, NavbarContainer, NavLogo, NavIcon, MobileIcon, NavMenu, NavLinks, 
 import { FaBars, FaTimes } from "react-icons/fa"
 import { IconContext } from "react-icons/lib"
 import { Button } from "../../globalStyles";
+import { GrSteps } from "react-icons/gr"
 
 
 const Navbar = () => {
@@ -33,12 +34,12 @@ const Navbar = () => {
 
     return (
         <>
-            <IconContext.Provider value={{ color: "black" }}>
+            <IconContext.Provider value={{ color: "white" }}>
                 <Nav>
                     <NavbarContainer>
                         <NavLogo to="/" onClick={closeMobileMenu}>
                             <NavIcon />
-                        Step1
+                        STEP1 - MORE THAN A BRAND!
                         </NavLogo>
                         <MobileIcon onClick={handleClick} >
                             {click ? <FaTimes /> : <FaBars />}
@@ -56,12 +57,12 @@ const Navbar = () => {
                             <NavItemBtn>
                                 {button ? (
                                     <NavBtnLink to="/sign-up">
-                                        <Button primary>SIGN UP</Button>
+                                        <Button primary>Start Now</Button>
                                     </NavBtnLink>
                                 ) : (
                                         <NavBtnLink to="/sign-up">
                                             <Button fontBig primary>
-                                                SIGN UP
+                                                Start Now
                                         </Button>
                                         </NavBtnLink>
                                     )}
