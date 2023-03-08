@@ -6,6 +6,10 @@ export const homeObjOne = {
     lightTextDesc: true,
     topLine: 'Branding Agency',
     headline: 'STEP-1',
+    headline2: 'Branding done right!',
+    headline3: 'Add meaning to your business!',
+    headline4: 'Take your brand to the next level!',
+    headline5: 'Be Remembered.',
     description:
       'Your brand is the first aspect potential customers will recognize about your company. Always make a great first impression ',
     buttonLabel: 'Get Started',

@@ -8,7 +8,7 @@ import 'swiper/swiper-bundle.min.css'
 import 'swiper/swiper.min.css'
 import './swiper.css'
 
-const infoSection = ({ primary, lightBg, imgStart, lightTopLine, lightTextDesc, buttonLabel, description, headline, lightText, topLine, img, alt, start }) => {
+const infoSection = ({ primary, lightBg, imgStart, lightTopLine, lightTextDesc, buttonLabel, description, headline, headline2,headline3,headline4,headline5, lightText, topLine, img, alt, start }) => {
     return (
         <>
             <InfoSec lightBg={lightBg}>
@@ -49,36 +49,23 @@ const infoSection = ({ primary, lightBg, imgStart, lightTopLine, lightTextDesc, 
                     <SwiperSlide
                     className='swiper-slide'
                     >
-                                <Heading2 lightText={lightText}>{headline}</Heading2>
+                                <Heading2 lightText={lightText}>{headline2}</Heading2>
                                 <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
                                 
                     </SwiperSlide>
                     <SwiperSlide>
-                    <InfoColumn>
-                            <TextWrapper>
-                                <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
-                                <Heading lightText={lightText}>{headline}</Heading>
+                                <Heading2 lightText={lightText}>{headline3}</Heading2>
                                 <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
-                            </TextWrapper>      
-                        </InfoColumn>
                     </SwiperSlide>
                     <SwiperSlide>
-                    <InfoColumn>
-                            <TextWrapper>
-                                <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
-                                <Heading lightText={lightText}>{headline}</Heading>
+                   
+                                <Heading2 lightText={lightText}>{headline4}</Heading2>
                                 <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
-                            </TextWrapper>      
-                        </InfoColumn>
                     </SwiperSlide>
                     <SwiperSlide>
-                    <InfoColumn>
-                            <TextWrapper>
-                                <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
-                                <Heading lightText={lightText}>{headline}</Heading>
+                
+                                <Heading2 lightText={lightText}>{headline5}</Heading2>
                                 <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
-                            </TextWrapper>      
-                        </InfoColumn>
                     </SwiperSlide>
                     ...
                 </Swiper>
