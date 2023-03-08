@@ -22,6 +22,7 @@ margin: auto;
 padding: 0 50px;
 
 
+
 @media screen and (max-width:990px) {
     padding: 0 30px;
 }
@@ -31,6 +32,25 @@ export const Button = styled.button`
 border-radius: 4px;
 background: ${({primary}) => (primary ? "black" : "#ffe8bb")};
 padding: ${({big}) => (big ? "8px 64px" : "1px 70px")};
+color: white;
+font-size: ${({fontBig}) => (fontBig ? "20px" : "16px")};
+border-radius: 4px;
+border: 1px solid black;
+cursor: pointer;
+
+&:hover{
+    transition: all 0.3s ease-out;
+    background: #fff;
+    background: ${({primary}) => (primary ? "purple" : "purple")};
+}
+
+@media screen and (max-width: 960px) {
+}
+`
+export const Button2 = styled.button`
+border-radius: 4px;
+background: ${({primary}) => (primary ? "purple" : "#ffe8bb")};
+padding: ${({big}) => (big ? "8px 64px" : "10px 70px")};
 color: white;
 font-size: ${({fontBig}) => (fontBig ? "20px" : "16px")};
 border-radius: 4px;

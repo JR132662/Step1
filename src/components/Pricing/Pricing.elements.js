@@ -66,11 +66,11 @@ export const PricingContainer = styled.div`
 
 export const PricingCard = styled(Link)`
     background-image: linear-gradient(90deg, rgba(255,255,255,1) 22%, rgba(255,232,187,1) 52%);
-    box-shadow: 0 10px 20px rgba(56, 125, 255, 0.2);
     width: 320px;
     height: 500px;
     text-decoration: none;
-    border-radius: 10px;
+    border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
+    box-shadow: 10px 10px rgba(0,0,0,.25);
 
     &:nth-child(2) {
         margin: 24px;
@@ -130,7 +130,7 @@ export const PricingCardFeatures = styled.ul`
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
+    text-align: left;
     color: black;;
 `
 
