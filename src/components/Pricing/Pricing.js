@@ -40,7 +40,7 @@ function Pricing() {
                   <PricingCardFeature>Your brand discovery process simplified</PricingCardFeature>
                   <PricingCardFeature>Targeted Brand Consulting V1 </PricingCardFeature>
                 </PricingCardFeatures>
-                <Button primary>Learn More</Button>
+                <Button>Learn More</Button>
               </PricingCardInfo>
             </PricingCard>
             <PricingCard to='/sign-up'>
@@ -52,7 +52,7 @@ function Pricing() {
                   <PricingCardFeature>Your brand discovery process simplified</PricingCardFeature>
                   <PricingCardFeature>Targeted Brand Consulting V2 </PricingCardFeature>
                 </PricingCardFeatures>
-                <Button primary>Learn More</Button>
+                <Button>Learn More</Button>
               </PricingCardInfo>
             </PricingCard>
             <PricingCard to='/sign-up'>
@@ -64,7 +64,7 @@ function Pricing() {
                   <PricingCardFeature>Product testing and launch de-risking</PricingCardFeature>
                   <PricingCardFeature>PR Marketing /Social Strategy</PricingCardFeature>
                 </PricingCardFeatures>
-                <Button primary>Learn More</Button>
+                <Button>Learn More</Button>
               </PricingCardInfo>
             </PricingCard>
           </PricingContainer>

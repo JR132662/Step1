@@ -59,7 +59,7 @@ const Navbar = () => {
                             <NavItemBtn>
                                 {button ? (
                                     <NavBtnLink to="/sign-up">
-                                        <Button primary>Launch Now</Button>
+                                        <Button>Launch Now</Button>
                                     </NavBtnLink>
                                 ) : (
                                         <NavBtnLink to="/sign-up">

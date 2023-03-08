@@ -4,3 +4,15 @@
     padding-top: 60px;
     
 }
+.sliderflex{
+    display: flex;
+    justify-content: center;
+}
+.swiper-button-next:after, .swiper-button-prev:after{
+    color: #fff;
+    font-size: 20px;
+}
+.SliderButton{
+    padding-left: 60%;
+    
+}

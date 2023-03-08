@@ -20,6 +20,7 @@ width: 100%;
 max-width: 1300px;
 margin: auto;
 padding: 0 50px;
+border: transparent;
 
 
 
@@ -32,7 +33,7 @@ export const Button = styled.button`
 border-radius: 4px;
 background: ${({primary}) => (primary ? "black" : "#ffe8bb")};
 padding: ${({big}) => (big ? "8px 64px" : "1px 70px")};
-color: white;
+color: black;
 font-size: ${({fontBig}) => (fontBig ? "20px" : "16px")};
 border-radius: 4px;
 border: 1px solid black;
@@ -51,7 +52,7 @@ export const Button2 = styled.button`
 border-radius: 4px;
 background: ${({primary}) => (primary ? "purple" : "#ffe8bb")};
 padding: ${({big}) => (big ? "8px 64px" : "10px 70px")};
-color: white;
+color: black;
 font-size: ${({fontBig}) => (fontBig ? "20px" : "16px")};
 border-radius: 4px;
 border: 1px solid black;
@@ -64,6 +65,7 @@ cursor: pointer;
 }
 
 @media screen and (max-width: 960px) {
+    
 }
 `
 

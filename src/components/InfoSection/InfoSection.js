@@ -1,5 +1,5 @@
 import React from 'react'
-import { InfoSec, InfoRow, InfoColumn, TextWrapper, Heading, Subtitle, TopLine, ImgWrapper, Img, Heading2, } from "./InfoSection.elements.js"
+import { InfoSec, InfoRow, InfoColumn, TextWrapper, Heading, Subtitle, TopLine, ImgWrapper, Img, Heading2, Subtitle2, Img2, Heading3, } from "./InfoSection.elements.js"
 import { Container, Button, Button2 } from "../../globalStyles"
 import { Link } from "react-router-dom"
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -7,8 +7,9 @@ import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import 'swiper/swiper-bundle.min.css'
 import 'swiper/swiper.min.css'
 import './swiper.css'
+import { withTheme } from 'styled-components';
 
-const infoSection = ({ primary, lightBg, imgStart, lightTopLine, lightTextDesc, buttonLabel, description, headline, headline2,headline3,headline4,headline5, lightText, topLine, img, alt, start }) => {
+const infoSection = ({ primary, lightBg, imgStart, lightTopLine, lightTextDesc, buttonLabel, description, description2, description3, description4, description5, headline, headline2,headline3,headline4,headline5, lightText, topLine, img, img3, img4, img5, img6, alt, start }) => {
     return (
         <>
             <InfoSec lightBg={lightBg}>
@@ -37,7 +38,7 @@ const infoSection = ({ primary, lightBg, imgStart, lightTopLine, lightTextDesc, 
                 <Swiper
                     className='swiper-container'
                     modules={[Navigation, Pagination, Scrollbar, A11y]}
-                    spaceBetween={40}
+                    spaceBetween={75}
                     slidesPerView={1}
                     color="primary"
                     navigation
@@ -48,25 +49,71 @@ const infoSection = ({ primary, lightBg, imgStart, lightTopLine, lightTextDesc, 
                     >
                     <SwiperSlide
                     className='swiper-slide'
-                    >
+                    >           
                                 <Heading2 lightText={lightText}>{headline2}</Heading2>
-                                <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
-                                
+                                <div className='sliderflex'>
+                                <ImgWrapper start={start}>
+                                <Img2 src={img3} alt={alt} />
+                                </ImgWrapper>
+                                <Subtitle2 lightTextDesc={lightTextDesc}
+                                className='slidertext'
+                                >{description2}</Subtitle2>
+                                </div>
+                                <div className='SliderButton'>
+                                <Button2>
+                                {buttonLabel}
+                                </Button2>
+                                </div>
                     </SwiperSlide>
-                    <SwiperSlide>
+                    <SwiperSlide
+                    className='swiper-slide'
+                    >           
                                 <Heading2 lightText={lightText}>{headline3}</Heading2>
-                                <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
+                                <div className='sliderflex'>
+                                <ImgWrapper start={start}>
+                                <Img2 src={img4} alt={alt} />
+                                </ImgWrapper>
+                                <Subtitle2 lightTextDesc={lightTextDesc}>{description3}</Subtitle2>
+                                </div>
+                                <div className='SliderButton'>
+                                <Button2>
+                                {buttonLabel}
+                                </Button2>
+                                </div>
                     </SwiperSlide>
-                    <SwiperSlide>
-                   
-                                <Heading2 lightText={lightText}>{headline4}</Heading2>
-                                <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
+                    <SwiperSlide
+                    className='swiper-slide'
+                    >           
+                                <Heading3 lightText={lightText}>{headline4}</Heading3>
+                                <div className='sliderflex'>
+                                <ImgWrapper start={start}>
+                                <Img2 src={img5} alt={alt} />
+                                </ImgWrapper>
+                                <Subtitle2 lightTextDesc={lightTextDesc}>{description4}</Subtitle2>
+                                </div>
+                                <div className='SliderButton'>
+                                <Button2>
+                                {buttonLabel}
+                                </Button2>
+                                </div>
                     </SwiperSlide>
-                    <SwiperSlide>
-                
-                                <Heading2 lightText={lightText}>{headline5}</Heading2>
-                                <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
+                    <SwiperSlide
+                    className='swiper-slide'
+                    >           
+                                <Heading3 lightText={lightText}>{headline5}</Heading3>
+                                <div className='sliderflex'>
+                                <ImgWrapper start={start}>
+                                <Img2 src={img6} alt={alt} />
+                                </ImgWrapper>
+                                <Subtitle2 lightTextDesc={lightTextDesc}>{description5}</Subtitle2>
+                                </div>
+                                <div className='SliderButton'>
+                                <Button2>
+                                {buttonLabel}
+                                </Button2>
+                                </div>
                     </SwiperSlide>
+                    
                     ...
                 </Swiper>
         </>

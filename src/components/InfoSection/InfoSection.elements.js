@@ -75,6 +75,17 @@ export const Img = styled.img`
     }
   }
 `
+export const Img2 = styled.img`
+  padding-right: 18px;
+  border: 0;
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+  max-height: 500px;
+  @media screen and (max-width: 768px) {
+   display: none;
+  }
+`
 
 export const Heading = styled.h1`
   margin-bottom: 24px;
@@ -90,12 +101,29 @@ export const Heading2 = styled.h1`
   text-align: center;
   font-weight: 600;
   color: ${({ lightText }) => (lightText ? '#ffe8bb' : '#ffe8bb')};
+  
 `
-
+export const Heading3 = styled.h1`
+  margin-bottom: 24px;
+  font-size: 60px;
+  line-height: 1.0;
+  text-align: center;
+  font-weight: 600;
+  color: ${({ lightText }) => (lightText ? '#ffe8bb' : '#ffe8bb')};
+  `
 export const Subtitle = styled.p`
 max-width: 440px;
 margin-bottom: 30px;
 text-align: left;
 font-size: 35px;
 color: ${({ lightTextDesc }) => (lightTextDesc ? "#f7f8fa" : "#1c2237")}
+`
+export const Subtitle2 = styled.p`
+max-width: 440px;
+margin-bottom: 30px;
+padding-top: 25px;
+padding-left: 30px;
+text-align: left;
+font-size: 25px;
+color: ${({ lightTextDesc }) => (lightTextDesc ? "#ffe8bb" : "#ffe8bb")}
 `

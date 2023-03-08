@@ -6,7 +6,7 @@ export const PricingSection = styled.div`
     flex-direction: column;
     justify-content: center;
     padding: 100px 0 160px;
-    background-image: linear-gradient(89.7deg, rgb(0, 32, 95) 2.8%, rgb(132, 53, 142) 97.8%);;
+    background-image: linear-gradient(85.7deg, rgb(0, 32, 95) 2.8%, rgb(132, 53, 142) 97.8%);;
 `
 export const VideoSection = styled.div`
 display: inline-block;
@@ -65,12 +65,12 @@ export const PricingContainer = styled.div`
 `
 
 export const PricingCard = styled(Link)`
-    background-image: linear-gradient(90deg, rgba(255,255,255,1) 22%, rgba(255,232,187,1) 52%);
+    background-image:linear-gradient(135deg, hsla(240, 9%, 96%, 1) 0%, hsla(251, 58%, 33%, 1) 54%);
     width: 320px;
     height: 500px;
     text-decoration: none;
     border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
-    box-shadow: 10px 10px rgba(0,0,0,.25);
+    box-shadow: 10px 10px rgba(0,0,0,.40);
 
     &:nth-child(2) {
         margin: 24px;
@@ -110,7 +110,7 @@ export const PricingCardPlan = styled.h3`
     margin-bottom: 5px;
     margin-top: 25px;
     font-size: 44px;
-    color: black;
+    color: white;
 `
 
 export const PricingCardCost = styled.h4`
@@ -120,21 +120,21 @@ export const PricingCardCost = styled.h4`
 export const PricingCardLength = styled.p`
     font-size: 24px;
     margin-bottom: 14px;
-    color: black;
+    color: white;
 `
 
 export const PricingCardFeatures = styled.ul`
-    margin: 16px 0 32px;
+    margin: 10px 0 32px;
     list-style: none;
     font-size: 24px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: left;
+    text-align: center;
     color: black;;
 `
 
 export const PricingCardFeature = styled.li`
     margin-bottom: 10px;
-    color: black;;
+    color: white;;
 `
