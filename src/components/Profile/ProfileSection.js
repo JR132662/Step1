@@ -3,11 +3,11 @@ import { InfoSec, InfoRow, InfoColumn, TextWrapper, Heading, Subtitle, TopLine, 
 import { Container, Button } from "../../globalStyles"
 import { Link } from "react-router-dom"
 import { PricingHeading } from '../Pricing/Pricing.elements.js'
-import { Img2 } from '../InfoSection/InfoSection.elements.js'
+import { Heading2, Img2 } from '../InfoSection/InfoSection.elements.js'
 
 const ProfileSection = ({ primary, lightBg, imgStart, lightTopLine, lightTextDesc, buttonLabel, description, headline, lightText, topLine, img, alt, start }) => {
     return (
-        <>
+        <>  
             <InfoSec lightBg={lightBg}>
                 <Container>
                     <InfoRow imgStart={imgStart}>

@@ -8,8 +8,8 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-padding: 200px 0;
-background-color: #101522;
+padding: 20px 0;
+background-image: linear-gradient(89.7deg,rgb(0,32,95) 2.8%,rgb(132,53,142) 97.8%);
 `
 export const FooterSubscription = styled.section`
   display: flex;
