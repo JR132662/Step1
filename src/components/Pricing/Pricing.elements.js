@@ -65,7 +65,7 @@ export const PricingContainer = styled.div`
 `
 
 export const PricingCard = styled(Link)`
-    background-image:linear-gradient(135deg, hsla(240, 9%, 96%, 1) 0%, hsla(251, 58%, 33%, 1) 54%);
+    background-image:linear-gradient(135deg, hsla(240, 9%, 96%, 1) 0%, hsla(251, 58%, 33%, 1) 0%);
     width: 320px;
     height: 500px;
     text-decoration: none;

@@ -48,6 +48,25 @@ cursor: pointer;
 @media screen and (max-width: 960px) {
 }
 `
+export const NavButton = styled.button`
+border-radius: 4px;
+background: ${({primary}) => (primary ? "purple" : "#ffe8bb")};
+padding: ${({big}) => (big ? "8px 64px" : "1px 70px")};
+color: black;
+font-size: ${({fontBig}) => (fontBig ? "20px" : "16px")};
+border-radius: 4px;
+border: 1px solid black;
+cursor: pointer;
+
+&:hover{
+    transition: all 0.3s ease-out;
+    background: #fff;
+    background: ${({primary}) => (primary ? "purple" : "purple")};
+}
+
+@media screen and (max-width: 960px) {
+}
+`
 export const Button2 = styled.button`
 border-radius: 4px;
 background: ${({primary}) => (primary ? "purple" : "#ffe8bb")};
@@ -71,9 +90,9 @@ cursor: pointer;
 `
 export const Button3 = styled.button`
 border-radius: 4px;
-background: ${({primary}) => (primary ? "purple" : "#ffe8bb")};
+background: ${({primary}) => (primary ? "purple" : "purple")};
 padding: ${({big}) => (big ? "8px 64px" : "10px 70px")};
-color: black;
+color: white;
 font-size: ${({fontBig}) => (fontBig ? "20px" : "16px")};
 border-radius: 4px;
 border: 1px solid black;

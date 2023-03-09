@@ -27,9 +27,9 @@ function Pricing() {
     <IconContext.Provider value={{ color: '#a9b3c1', size: 64 }}>
       <PricingSection>
         <PricingWrapper>
-          <PricingHeading2>Who we are</PricingHeading2>
+          <PricingHeading2>Finding your target audience</PricingHeading2>
           <VideoSection><iframe width="1000" height="498" src="https://www.youtube.com/embed/5b68QthwAMQ" title="How to find your target audience- Step 1 Strategy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></VideoSection>
-          <PricingHeading>Our Services</PricingHeading>
+          <PricingHeading>STEP1 Branding Services</PricingHeading>
           <PricingContainer>
             <PricingCard to='/sign-up'>
               <PricingCardInfo>
@@ -49,7 +49,7 @@ function Pricing() {
                 <PricingCardLength>Tier 2</PricingCardLength>
                 <PricingCardFeatures>
                   <PricingCardFeature>Phase 2 Brand Sprint</PricingCardFeature>
-                  <PricingCardFeature>Your brand discovery process simplified</PricingCardFeature>
+                  <PricingCardFeature>Your enhanced brand discovery process</PricingCardFeature>
                   <PricingCardFeature>Targeted Brand Consulting V2 </PricingCardFeature>
                 </PricingCardFeatures>
                 <Button>Learn More</Button>
@@ -62,7 +62,7 @@ function Pricing() {
                 <PricingCardFeatures>
                   <PricingCardFeature>Phase 3 Brand Sprint</PricingCardFeature>
                   <PricingCardFeature>Product testing and launch de-risking</PricingCardFeature>
-                  <PricingCardFeature>PR Marketing /Social Strategy</PricingCardFeature>
+                  <PricingCardFeature>Targeted Brand Consulting V3</PricingCardFeature>
                 </PricingCardFeatures>
                 <Button>Learn More</Button>
               </PricingCardInfo>

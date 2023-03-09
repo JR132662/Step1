@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react"
 import { Nav, NavbarContainer, NavLogo, NavIcon, MobileIcon, NavMenu, NavLinks, NavItem, NavItemBtn, NavBtnLink } from "./Navbar.elements"
 import { FaBars, FaTimes } from "react-icons/fa"
 import { IconContext } from "react-icons/lib"
-import { Button } from "../../globalStyles";
+import { Button, Button2, NavButton } from "../../globalStyles";
 import { GrSteps } from "react-icons/gr"
 
 
@@ -59,7 +59,7 @@ const Navbar = () => {
                             <NavItemBtn>
                                 {button ? (
                                     <NavBtnLink to="/sign-up">
-                                        <Button>Launch Now</Button>
+                                        <NavButton>Launch Now</NavButton>
                                     </NavBtnLink>
                                 ) : (
                                         <NavBtnLink to="/sign-up">

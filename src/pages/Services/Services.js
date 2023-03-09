@@ -4,7 +4,8 @@ import { Pricing } from "../../components"
 const Home = () => {
 
     return (
-        <>
+        <>   
+            
             <Pricing />
         </>
     )
