@@ -1,6 +1,6 @@
 import React from 'react'
 import { InfoSec, InfoRow, InfoColumn, TextWrapper, Heading, Subtitle, TopLine, ImgWrapper, Img, Heading2, Subtitle2, Img2, Heading3, } from "./InfoSection.elements.js"
-import { Container, Button, Button2 } from "../../globalStyles"
+import { Container, Button, Button2, Button3 } from "../../globalStyles"
 import { Link } from "react-router-dom"
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
@@ -29,6 +29,11 @@ const infoSection = ({ primary, lightBg, imgStart, lightTopLine, lightTextDesc, 
                                     <Button2 big fontbig primary={primary}>
                                         {buttonLabel}
                                     </Button2>
+                                </Link>
+                                <Link to="/sign-up">
+                                    <Button3 big fontbig primary={primary}>
+                                        {buttonLabel}
+                                    </Button3>
                                 </Link>
                             </TextWrapper>      
                         </InfoColumn>
@@ -59,8 +64,13 @@ const infoSection = ({ primary, lightBg, imgStart, lightTopLine, lightTextDesc, 
                                 className='slidertext'
                                 >{description2}</Subtitle2>
                                 </div>
+                                <div className='MobileBtn'>
+                                <Button3>
+                                {buttonLabel}
+                                </Button3>
+                                </div>
                                 <div className='SliderButton'>
-                                <Button2>
+                                <Button2 big fontbig primary={primary}>
                                 {buttonLabel}
                                 </Button2>
                                 </div>
@@ -75,8 +85,13 @@ const infoSection = ({ primary, lightBg, imgStart, lightTopLine, lightTextDesc, 
                                 </ImgWrapper>
                                 <Subtitle2 lightTextDesc={lightTextDesc}>{description3}</Subtitle2>
                                 </div>
+                                <div className='MobileBtn'>
+                                <Button3>
+                                {buttonLabel}
+                                </Button3>
+                                </div>
                                 <div className='SliderButton'>
-                                <Button2>
+                                <Button2 big fontbig primary={primary}>
                                 {buttonLabel}
                                 </Button2>
                                 </div>
@@ -91,8 +106,13 @@ const infoSection = ({ primary, lightBg, imgStart, lightTopLine, lightTextDesc, 
                                 </ImgWrapper>
                                 <Subtitle2 lightTextDesc={lightTextDesc}>{description4}</Subtitle2>
                                 </div>
+                                <div className='MobileBtn'>
+                                <Button3>
+                                {buttonLabel}
+                                </Button3>
+                                </div>
                                 <div className='SliderButton'>
-                                <Button2>
+                                <Button2 big fontbig primary={primary}>
                                 {buttonLabel}
                                 </Button2>
                                 </div>
@@ -107,8 +127,13 @@ const infoSection = ({ primary, lightBg, imgStart, lightTopLine, lightTextDesc, 
                                 </ImgWrapper>
                                 <Subtitle2 lightTextDesc={lightTextDesc}>{description5}</Subtitle2>
                                 </div>
+                                <div className='MobileBtn'>
+                                <Button3>
+                                {buttonLabel}
+                                </Button3>
+                                </div>
                                 <div className='SliderButton'>
-                                <Button2>
+                                <Button2 big fontbig primary={primary}>
                                 {buttonLabel}
                                 </Button2>
                                 </div>

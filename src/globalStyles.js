@@ -52,7 +52,7 @@ export const Button2 = styled.button`
 border-radius: 4px;
 background: ${({primary}) => (primary ? "purple" : "#ffe8bb")};
 padding: ${({big}) => (big ? "8px 64px" : "10px 70px")};
-color: black;
+color: #ffe8bb;
 font-size: ${({fontBig}) => (fontBig ? "20px" : "16px")};
 border-radius: 4px;
 border: 1px solid black;
@@ -61,13 +61,36 @@ cursor: pointer;
 &:hover{
     transition: all 0.3s ease-out;
     background: #fff;
+    color: black;
+    background: ${({primary}) => (primary ? "#ffe8bb" : "purple")};
+}
+
+@media screen and (max-width: 960px) {
+    display: none;
+}
+`
+export const Button3 = styled.button`
+border-radius: 4px;
+background: ${({primary}) => (primary ? "purple" : "#ffe8bb")};
+padding: ${({big}) => (big ? "8px 64px" : "10px 70px")};
+color: black;
+font-size: ${({fontBig}) => (fontBig ? "20px" : "16px")};
+border-radius: 4px;
+border: 1px solid black;
+cursor: pointer;
+display: none;
+
+&:hover{
+    transition: all 0.3s ease-out;
+    background: #fff;
     background: ${({primary}) => (primary ? "purple" : "purple")};
 }
 
 @media screen and (max-width: 960px) {
-    
+    display: inline-block;
 }
 `
+
 
 
 export default GlobalStyle
