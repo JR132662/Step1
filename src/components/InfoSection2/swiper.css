@@ -1,0 +1,23 @@
+.swiper-container{
+    background-image: linear-gradient(89.7deg,rgb(0,32,95) 2.8%,rgb(132,53,142) 97.8%);
+    width: 100%;
+    padding-top: 60px;
+    
+}
+.sliderflex{
+    display: flex;
+    justify-content: center;
+}
+.swiper-button-next:after, .swiper-button-prev:after{
+    color: #fff;
+    font-size: 20px;
+}
+.SliderButton{
+    padding-left: 60%;
+    
+}
+.MobileBtn{
+    padding-left: 24%;
+    padding-bottom: 10px;
+    
+}
