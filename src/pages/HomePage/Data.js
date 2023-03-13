@@ -108,7 +108,7 @@ export const homeObjOne = {
       'We believe in creating brands that are built to last, and we believe the best way to guarantee this level of success is a deeply well thought out and well executed launch',
     buttonLabel: 'Get Started',
     imgStart: '',
-    img: require('../../images/banner.jpeg').default,
+    img: require('../../images/banner1.jpeg').default,
     alt: 'Credit Card',
     start: ''
   };
