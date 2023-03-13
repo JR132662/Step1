@@ -20,11 +20,12 @@ const ProfileSection = ({ primary, lightBg, imgStart, lightTopLine, lightTextDes
                             <TextWrapper>
                                 <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
                                 <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
-                                <Link to="/sign-up">
+                                <a href=' https://calendly.com/step1strategy/30min?month=2023-02
+                                    '>
                                     <Button big fontbig primary={primary}>
                                         {buttonLabel}
                                     </Button>
-                                </Link>
+                                    </a>
                             </TextWrapper>      
                         </InfoColumn>
                     </InfoRow>

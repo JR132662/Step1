@@ -25,16 +25,16 @@ const infoSection = ({ primary, lightBg, imgStart, lightTopLine, lightTextDesc, 
                                 <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
                                 <Heading lightText={lightText}>{headline}</Heading>
                                 <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
-                                <Link to="/sign-up">
+                                <a href='https://ntqfgiovpio.typeform.com/to/vLwRk52x'>
                                     <Button2 big fontbig primary={primary}>
                                         {buttonLabel}
                                     </Button2>
-                                </Link>
-                                <Link to="/sign-up">
+                                </a>
+                                <a href='https://ntqfgiovpio.typeform.com/to/vLwRk52x'>
                                     <Button3 big fontbig primary={primary}>
                                         {buttonLabel}
                                     </Button3>
-                                </Link>
+                                </a>
                             </TextWrapper>      
                         </InfoColumn>
                     </InfoRow>
@@ -65,14 +65,18 @@ const infoSection = ({ primary, lightBg, imgStart, lightTopLine, lightTextDesc, 
                                 >{description2}</Subtitle2>
                                 </div>
                                 <div className='MobileBtn'>
+                                <a href='https://ntqfgiovpio.typeform.com/to/vLwRk52x'>
                                 <Button3>
                                 {buttonLabel}
                                 </Button3>
+                                </a>
                                 </div>
                                 <div className='SliderButton'>
+                                <a href='https://ntqfgiovpio.typeform.com/to/vLwRk52x'>
                                 <Button2 big fontbig primary={primary}>
                                 {buttonLabel}
                                 </Button2>
+                                </a>
                                 </div>
                     </SwiperSlide>
                     <SwiperSlide
@@ -86,14 +90,18 @@ const infoSection = ({ primary, lightBg, imgStart, lightTopLine, lightTextDesc, 
                                 <Subtitle2 lightTextDesc={lightTextDesc}>{description3}</Subtitle2>
                                 </div>
                                 <div className='MobileBtn'>
+                                <a href='https://ntqfgiovpio.typeform.com/to/vLwRk52x'>
                                 <Button3>
                                 {buttonLabel}
                                 </Button3>
+                                </a>
                                 </div>
                                 <div className='SliderButton'>
+                                <a href='https://ntqfgiovpio.typeform.com/to/vLwRk52x'>
                                 <Button2 big fontbig primary={primary}>
                                 {buttonLabel}
                                 </Button2>
+                                </a>
                                 </div>
                     </SwiperSlide>
                     <SwiperSlide
@@ -107,14 +115,18 @@ const infoSection = ({ primary, lightBg, imgStart, lightTopLine, lightTextDesc, 
                                 <Subtitle2 lightTextDesc={lightTextDesc}>{description4}</Subtitle2>
                                 </div>
                                 <div className='MobileBtn'>
+                                <a href='https://ntqfgiovpio.typeform.com/to/vLwRk52x'>
                                 <Button3>
                                 {buttonLabel}
                                 </Button3>
+                                </a>
                                 </div>
                                 <div className='SliderButton'>
+                                <a href='https://ntqfgiovpio.typeform.com/to/vLwRk52x'>
                                 <Button2 big fontbig primary={primary}>
                                 {buttonLabel}
                                 </Button2>
+                                </a>
                                 </div>
                     </SwiperSlide>
                     <SwiperSlide
@@ -128,14 +140,18 @@ const infoSection = ({ primary, lightBg, imgStart, lightTopLine, lightTextDesc, 
                                 <Subtitle2 lightTextDesc={lightTextDesc}>{description5}</Subtitle2>
                                 </div>
                                 <div className='MobileBtn'>
+                                <a href='https://ntqfgiovpio.typeform.com/to/vLwRk52x'>
                                 <Button3>
                                 {buttonLabel}
                                 </Button3>
+                                </a>
                                 </div>
                                 <div className='SliderButton'>
+                                <a href='https://ntqfgiovpio.typeform.com/to/vLwRk52x'>
                                 <Button2 big fontbig primary={primary}>
                                 {buttonLabel}
                                 </Button2>
+                                </a>
                                 </div>
                     </SwiperSlide>
                     

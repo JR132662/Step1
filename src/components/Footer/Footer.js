@@ -60,7 +60,6 @@ const Footer = () => {
                 </FooterLinksWrapper>
             </FooterLinksContainer>
             <SocialMedia>
-                <SocialMediaWrap>
                         <SocialIconLink href="/" target="_blank" aria-label="Facebook">
                             <FaFacebook />
                         </SocialIconLink>
@@ -76,7 +75,6 @@ const Footer = () => {
                         <SocialIconLink href="/" target="_blank" aria-label="Linkedin">
                             <FaLinkedin />
                         </SocialIconLink>
-                </SocialMediaWrap>
             </SocialMedia>
         </FooterContainer>
     )

@@ -111,7 +111,7 @@ transition: 0.3s ease-out;
 
 export const SocialMedia = styled.section`
 max-width: 1000px;
-width: 100%;
+align-items: center;
 `;
 
 export const SocialMediaWrap = styled.div`
@@ -156,4 +156,5 @@ width: 240px;
 export const SocialIconLink = styled.a`
 color: #fff;
 font-size: 24px;
+margin: 15px;
 `

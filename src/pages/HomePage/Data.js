@@ -6,7 +6,7 @@ export const homeObjOne = {
     lightTextDesc: true,
     topLine: 'Branding Agency',
     headline: 'STEP-1',
-    headline2: 'BRANDING PLUS ULTRA!',
+    headline2: 'MORE THAN A BRAND!',
     headline3: 'PURPOSEFUL APPROACH!',
     headline4: 'BE ICONIC.',
     headline5: 'BE REMEMBERED',

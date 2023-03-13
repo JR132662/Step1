@@ -48,25 +48,23 @@ const Navbar = () => {
                                 <NavLinks to="/">Home</NavLinks>
                             </NavItem>
                             <NavItem>
-                                <NavLinks to="/services">Services</NavLinks>
+                                <NavLinks to="/products">Services</NavLinks>
                             </NavItem>
                             <NavItem>
-                                <NavLinks to="/products">Products</NavLinks>
-                            </NavItem>
-                            <NavItem>
-                                <NavLinks to="/products">Blog</NavLinks>
+                                <NavLinks to="/Services">Blog</NavLinks>
                             </NavItem>
                             <NavItemBtn>
                                 {button ? (
-                                    <NavBtnLink to="/sign-up">
-                                        <NavButton>Launch Now</NavButton>
-                                    </NavBtnLink>
+                                    <a href=' https://calendly.com/step1strategy/30min?month=2023-02
+                                    '>
+                                        <NavButton>Schedule a meeting</NavButton>
+                                    </a>
                                 ) : (
-                                        <NavBtnLink to="/sign-up">
-                                            <Button fontBig primary>
+                                    <a href='https://ntqfgiovpio.typeform.com/to/vLwRk52x'>
+                                            <Button>
                                                 Start Now
                                         </Button>
-                                        </NavBtnLink>
+                                        </a>
                                     )}
                             </NavItemBtn>
                         </NavMenu>
